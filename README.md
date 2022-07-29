@@ -65,11 +65,11 @@ Savio is a [computing cluser](https://research-it.berkeley.edu/services-projects
  1) Run `ssh nicolekeeney@hpc.brc.berkeley.edu` in your terminal to log in to savio, replacing nicolekeeney with your savio username
 #### 2) Clone the github repository to savio
  1) Follow the instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to generate a personal access token attached to your GitHub account. This will be a collection of random letters/numbers that you'll need to copy. You'll also need to decide what permissions to give the key.
- 2) Clone the repository by running the following in the directory where you want to store the repository (probably your user directory, i.e. scratch/users/nicolekeeney): <br>`git clone https://github.com/nicolejkeeney/WEMO_calibration` 
+ 2) Clone the repository by running the following in the directory where you want to store the repository (probably your user directory, i.e. scratch/users/nicolekeeney): <br>`git clone https://github.com/nicolejkeeney/wind_erosion_model_calibration` 
  3) After that, you'll be prompted to enter your GitHub username and a password. For the password, **input the personal access token, not your GitHub password.** 
  4) Cache your personal access token so you don't have to keep inputting it each time following the instructions. I've set it up using HTTPS, not SSH. Run `gh auth login` and input your username and personal access key.
 #### 3) Create the conda environment 
- 1) Migrate to the repository on savio (i.e. scratch/users/nicolekeeney/WEMO_calibration) 
+ 1) Migrate to the repository on savio (i.e. scratch/users/nicolekeeney/wind_erosion_model_calibration) 
  2) Load python in savio by running `module load python` 
  3) Create the conda environment by running `conda env create -f environment.yml`. **This step may take a while to complete** 
 #### 4) Run the calibration script 
