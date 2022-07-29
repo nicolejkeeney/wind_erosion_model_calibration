@@ -6,7 +6,6 @@ The calibration method utilizes an iterative process to generate a set of 1000 r
 
 ## Contact 
 **Nicole Keeney (code author)**<br>
-UC Berkeley School of Public Health, Department of Environmental Health Sciences<br>
 nicolejkeeney@gmail.com<br><br>
 **Abinash Bhattachan (study lead)**<br>
 California State University East Bay, Department of Earth & Environmental Sciences<br>
