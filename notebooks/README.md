@@ -1,0 +1,3 @@
+# Notebooks 
+
+This folder contains Jupyter Notebooks used for cleaning and wrangling the raw remote sensing data, deriving flux measurements from sediment weights, and computing probability density functions by date for the wind measurements for each site (using both wind tower data and NARR reanalysis data). All the notebook dependencies are included in the conda environment included in this repository. For more information on each notebook, see the description at the top of the notebook and detailed comments throughout the code. 

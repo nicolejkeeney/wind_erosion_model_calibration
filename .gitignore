@@ -1,0 +1,46 @@
+Last login: Fri Jul 29 12:19:08 on ttys002
+(base) nicolekeeney@Nicoles-MacBook-Pro cae-notebooks % cd ../WEMO_calibration 
+(base) nicolekeeney@Nicoles-MacBook-Pro WEMO_calibration % vim .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# weird mac files
+.DS_Store
+
+# notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/**
+
+# Data directory
+data/*
+
+# pycache
+__pycache__/*
+*/__pycache__/*
+
+# netcdf files
+*.nc*
+*/*.nc*
+*/*/*.nc*
+
+# literature
+literature/*
+
