@@ -8,8 +8,8 @@ The calibration method utilizes an iterative process to generate a set of 1000 r
 **Nicole Keeney (code author)**<br>
 nicolejkeeney@gmail.com<br><br>
 **Abinash Bhattachan (study lead)**<br>
-California State University East Bay, Department of Earth & Environmental Sciences<br>
-abinash.bhattachan@csueastbay.edu
+Texas Tech University, Department of Geosciences<br>
+abibhatt@ttu.edu
 
 ## Model parameters 
 Below, we provide a description of the parameters derived in the model calibration and the symbols used to reference them in the code. 
