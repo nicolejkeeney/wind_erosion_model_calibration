@@ -51,7 +51,7 @@ def WEMO_model(scl_hgt, Pd_xh, ustar_pdf, q_pred_eq="mod_shao", Fg=0.3, A=10**(-
     for date in wemo_dates: 
         # Compute u*s/u*
         x_h = scl_hgt.loc[date].T.to_numpy() # x_sc_gap_array in Abi's code. This gives you the scale height at each gap size for a given date (a list wuth 4 values)
-        shear_velocity_ratio = (U + ((1 - U)*(1 - np.exp(-C/x_h)))) # shear velocity ratio is u*s/u*
+        shear_velocity_ratio = (U + ((1 - U)*(1 - np.exp(-x_h/C)))) # shear velocity ratio is u*s/u*
         Pd_xh_np = Pd_xh.loc[date].to_numpy() # Probability that any point in the landscape is a certain distance from the nearest upwind plant expressed in units of height of that plant
         
         # Deal with foliage input if it's a dataframe. Some checks here to make sure user inputted a valid value 
